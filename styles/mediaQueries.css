@@ -1,0 +1,31 @@
+@media  screen and (max-width:600px) {
+    .subjects{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subject{
+        width: 50% !important;
+    }
+    .text-sm{
+        font-size: 7px;
+    }
+    .subject p{
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:750px) {
+    .form{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width:450px) {
+    .form{
+        width: 97% !important;
+    }
+    .spans-form{
+        display: none;
+    }
+
+}
